@@ -159,7 +159,16 @@ button:hover {
 
 /* about page */
 
+body {
+    background-image: linear-gradient(black, red);
+}
 
+#about div {
+    text-align: center;
+    color: white;
+    padding-top : 20px;
+    background-image: linear-gradient(black, red);
+}
 
 /* contact page */
 
