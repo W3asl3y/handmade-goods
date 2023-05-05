@@ -22,6 +22,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
         <script src="https://kit.fontawesome.com/b7442f5547.js" crossorigin="anonymous"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
         
     </head>
     <body>
@@ -61,7 +63,22 @@
         </header>
 
         <main>
-
+            <section id="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="process-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br>
+        
+                    <input type="submit" value="Send">
+                </form>
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+            </section>
         </main>
 
         <footer>

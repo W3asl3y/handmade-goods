@@ -172,7 +172,40 @@ body {
 
 /* contact page */
 
+#contact-form {
+    padding: 100px;
+    color: white;
+}
 
+#contact-form h2 {
+	margin-top: 0;
+}
+
+#contact-form label {
+	display: block;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#contact-form input, textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#contact-form input[type="submit"] {
+	background-color: black;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#contact-form input[type="submit"]:hover {
+	background-color: #333;
+    transform: scale(1.2);
+}
 
 /* cart */
 
