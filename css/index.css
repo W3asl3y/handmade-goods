@@ -7,11 +7,15 @@ body {
 /* header */
 
 header {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
     box-shadow: 0 5px 15px red ;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .logo {
@@ -50,7 +54,49 @@ header {
 
 /* home page */
 
+#hero {
+    background-image: url("/images/ladybug.png");
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 100%;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: top 25% right 20%;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#hero h1 {
+    padding-right: 400px;
+    color: red;
+}
+
+#hero button {
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+
+#hero button:hover {
+    background-color: red;
+    border-color: red;
+    transform: scale(1.2);
+}
+
+#featured {
+    text-align: center
+}
+
+.card-deck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
 
 /* shop page */
 
