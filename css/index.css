@@ -172,6 +172,11 @@ body {
 
 /* contact page */
 
+main {
+    display: flex;
+    color: white;
+}
+
 #contact-form {
     padding: 100px;
     color: white;
@@ -205,6 +210,11 @@ body {
 #contact-form input[type="submit"]:hover {
 	background-color: #333;
     transform: scale(1.2);
+}
+
+#contacts {
+    padding-top: 200px;
+    text-align: center;
 }
 
 /* cart */
