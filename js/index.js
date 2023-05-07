@@ -38,6 +38,7 @@ console.log(productsArray);
 const addBtn = docoment.getElementById("addBtn");
 const deleteBtn = document.getElementById("delete");
 const cartTable = document.getElementById("cart-table");
+const toTop = document.getElementById("backToTop")
 
 
 
@@ -110,4 +111,13 @@ function deleteFromCart(productId) {
 
 
 
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+}
+
+toTop.addEventListener("click", topFunction())
 

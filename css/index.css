@@ -54,6 +54,24 @@ header {
     color: red;
 }
 
+#backToTop {
+    font-weight: bold;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    background-color: cyan;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #backToTop:hover {
+    background-color: #555;
+  }
+
 /* home page */
 
 #hero {
