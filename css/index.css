@@ -49,6 +49,11 @@ header {
     color: black;
 }
 
+#cart a:hover,
+#cart a.active {
+    color: red;
+}
+
 /* home page */
 
 #hero {
@@ -227,7 +232,38 @@ body {
 
 /* cart */
 
+.cart-main {
+    background-image: linear-gradient(red, black);
+}
 
+.cart-section {
+    text-align: center;
+    color: white;
+}
+
+#cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+#cart-table input {
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+}
+
+.delete {
+
+    transition: all 0.5s;
+}
+
+.delete:hover {
+    transform: scale(1.5);
+}
 
 /* media queries */
 

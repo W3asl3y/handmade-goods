@@ -1,0 +1,41 @@
+{
+    "products": [
+        {
+            "name": "Chess board",
+            "price": "R200.00"
+        },
+        {
+            "name": "Customised coffee mug",
+            "price": "R70.00"
+        },
+        {
+            "name": "Customised hamper with champaign glasses",
+            "price": "R500.00"
+        },
+        {
+            "name": "No parking steel plate",
+            "price": "R200.00"
+        },
+        {
+            "name": "Custom printed boulevard shirt",
+            "price": "R150.00"
+        },
+        {
+            "name": "Custom printed band shirt",
+            "price": "R120.00"
+        },
+        {
+            "name": "Custom gin glass",
+            "price": "R60.00"
+        },
+        {
+            "name": "Custom frosted whiskey glass",
+            "price": "R80.00"
+        },
+        {
+            "name": "Custom mirror",
+            "price": "R120.00"
+        }
+        
+    ]
+}
